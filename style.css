@@ -1,0 +1,51 @@
+h1 {
+    color: white;
+}
+
+body {
+    background: linear-gradient(90deg, #4568DC, #B06AB3);
+}
+
+#equals {
+    background-color: green;
+}
+
+#userInput {
+    width: 40%;
+    height: 40px;
+    margin-top: 20%;
+}
+
+.calculator {
+    border: 1px solid black ;
+    margin: 10px auto;
+    width: 40%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.emptySpace {
+    background: none;
+}
+
+.key {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+}
+
+.allClear {
+    background-color: #FFAF33;
+}
+
+.numberKey {
+    background-color: #BB33FF;
+    
+}
+
+.operatorKey {
+    background-color: #FCFF33;
+}
